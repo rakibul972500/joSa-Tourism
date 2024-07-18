@@ -231,3 +231,57 @@ input,select,button{
 .dark-2{
     color:rgb(66, 66, 71);
 }
+.ham-burger{
+    display:none;
+}
+
+/* making responsive for mobile device*/
+
+@media screen and (max-width:576px){
+    .nav-options{
+        display:none;
+    }
+    .ham-burger{
+        display:block;
+    }
+    h3{
+        font-size:26px;       
+    }
+    .ham-burger i{
+        font-size: 26px;
+
+    }
+    .banner{
+        margin:3rem;
+        
+    }
+    p{
+        font-size:16px;
+    }
+    .banner-heading h3{
+        font-size:26px;
+    }
+    .banner-heading p{
+        width:60%;
+
+    }
+    .banner-input{
+        display:grid;
+        grid-template-columns: repeat(1 1fr);
+        gap:1rem;
+    }
+    .container-1{
+        display:flex;
+        flex-direction: column;
+        gap:2rem;
+    }
+    .container-1 img{
+        width:100%;
+        height:100%;
+
+    }
+    .row-1, .row-2, .row-3{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+}
